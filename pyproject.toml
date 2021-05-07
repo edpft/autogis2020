@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "autogis"
+version = "0.1.0"
+description = ""
+authors = ["Ed Fawcett-Taylor <edwardpaultaylor@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.4"
+geopandas = "^0.9.0"
+matplotlib = "^3.4.1"
+bokeh = "^2.3.1"
+geojson = "^2.5.0"
+pysal = "^2.4.0"
+mapclassify = "^2.4.2"
+osmnx = "^1.1.0"
+pyrosm = "^0.6.0"
+geopy = "^2.1.0"
+rasterio = "^1.2.3"
+contextily = "^1.1.0"
+folium = "^0.12.1"
+mplleaflet = "^0.0.5"
+ipykernel = "^5.5.4"
+jupyterlab-github = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+jupyterlab = "^3.0.14"
+jupyterlab-github = "^2.0.0"
+jupyter-git = "^1.0.22"
+jupyterlab-git = "^0.30.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
